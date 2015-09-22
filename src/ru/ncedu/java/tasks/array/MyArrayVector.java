@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ru.ncedu.java.tasks.arrayVector;
+package ru.ncedu.java.tasks.array;
 
 import java.util.Arrays;
 

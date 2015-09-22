@@ -1,4 +1,4 @@
-package ru.ncedu.java.tasks.arrayVector;
+package ru.ncedu.java.tasks.array;
 
 /**
  * ЦЕЛЬ ЗАДАЧИ - разобраться с массивами и циклами в Java, принципами написания класса,
