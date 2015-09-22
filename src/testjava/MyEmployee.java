@@ -11,13 +11,13 @@ package testjava;
  */
 public class MyEmployee implements Employee {
 
-    private int salary = 10;
+    private int salary = 1000;
     private String firstName = "", lastName = "";
     private Employee manager;
 
     public MyEmployee() {
-        this.firstName = "";
-        this.lastName = "";
+        this.firstName = "Default firstName";
+        this.lastName = "Default lastName";
     }
     
     public MyEmployee(String firstName, String lastName) {
