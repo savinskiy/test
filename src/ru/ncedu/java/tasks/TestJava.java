@@ -1,4 +1,4 @@
-package testjava;
+package ru.ncedu.java.tasks;
 
 /**
  *

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package testjava;
+package ru.ncedu.java.tasks.employee;
 
 /**
  * ЦЕЛЬ ЗАДАЧИ - разобраться с основами объектно-ориентированного программирования в Java,
