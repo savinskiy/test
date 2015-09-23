@@ -26,17 +26,14 @@ public class MyBusinessCard implements BusinessCard {
 
     @Override
     public BusinessCard getBusinessCard(Scanner scanner) {
-        ArrayList<String> arr = new ArrayList<String>();
-        while (scanner.hasNext()) {
-            arr.add(scanner.next("[^;]"));
-        }
-        name = arr.get(0);
-        lastName = arr.get(1);
-        department = arr.get(2);
-        birthDate = arr.get(3);
-        gender = arr.get(4).charAt(0);
-        salary = Integer.parseInt(arr.get(5));
-        phoneNumber = Long.parseLong(arr.get(6));
+        String[] arr = scanner.nextLine().split(";");
+        name = arr[0];
+        lastName = arr[1];
+        department = arr[2];
+        birthDate = arr[3];
+        gender = arr[4].charAt(0);
+        salary = Integer.parseInt(arr[5]);
+        phoneNumber = Long.parseLong(arr[6]);
         return this;
     }
 
@@ -57,7 +54,7 @@ public class MyBusinessCard implements BusinessCard {
 
     @Override
     public int getAge() {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("DD-MM-YY");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         Date birth = null;
         try {
             birth = dateFormat.parse(birthDate);
@@ -68,7 +65,8 @@ public class MyBusinessCard implements BusinessCard {
         Calendar cal2 = Calendar.getInstance();
         cal1.setTime(birth);
         cal2.setTime(new Date());
-        return (int) (cal2.getTimeInMillis() - cal1.getTimeInMillis()) / 1000 / 3600 / 24 / 365;
+        long age = (cal2.getTimeInMillis() - cal1.getTimeInMillis()) / 1000 / 3600 / 24 / 365;
+        return (int)age;
     }
 
     @Override
