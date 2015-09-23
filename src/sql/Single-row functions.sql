@@ -2,4 +2,4 @@
 --  и зарплату сотрудник начинает получать, начиная со следующего месяца после
 --  месяца приема на работу. Вывести для всех сотрудников: дату приема на работу 
 -- и дату, когда сотруднику была выплачена первая зарплата.
-select first_name, last_name from employees 
+select first_name as name, last_name as surname, hire_date, TRUNC(add_months(hire_date, 1), 'MM') + 4 as salary_date from employees;
