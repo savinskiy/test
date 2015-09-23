@@ -33,7 +33,7 @@ public class MyWordProcessor implements WordProcessor {
 
     @Override
     public void setSourceFile(String srcFile) throws IOException {
-
+        text = "";
         File file = new File(srcFile);
 
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
@@ -47,6 +47,7 @@ public class MyWordProcessor implements WordProcessor {
     
     @Override
     public void setSource (FileInputStream fis) throws IOException {
+        text = "";
         BufferedReader br = new BufferedReader(new InputStreamReader(fis, "UTF-8"));
         String line = null;
         while ((line = br.readLine()) != null) {
