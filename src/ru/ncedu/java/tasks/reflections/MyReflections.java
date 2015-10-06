@@ -90,11 +90,17 @@ public class MyReflections implements Reflections {
             Logger.getLogger(MyReflections.class.getName()).log(Level.SEVERE, null, ex);
         }
         try {
-            secret = (SecretClass) clazz.newInstance();
+            Constructor<SecretClass> constructor = SecretClass.class.getDeclaredConstructor((Class<?>[]) null);
+            constructor.setAccessible(true);
+            secret = constructor.newInstance((Object[]) null);
         } catch (InstantiationException ex) {
             Logger.getLogger(MyReflections.class.getName()).log(Level.SEVERE, "Can't create instance of SecretClass", ex);
         } catch (IllegalAccessException ex) {
             Logger.getLogger(MyReflections.class.getName()).log(Level.SEVERE, "Can't get access to SercretClass", ex);
+        } catch (NoSuchMethodException ex) {
+            Logger.getLogger(MyReflections.class.getName()).log(Level.SEVERE, "Can't find constructor of SercretClass", ex);
+        } catch (InvocationTargetException ex) {
+            Logger.getLogger(MyReflections.class.getName()).log(Level.SEVERE, "Can't invoke default constructor", ex);
         }
         foo.setAccessible(true);
         try {
@@ -117,7 +123,7 @@ public class MyReflections implements Reflections {
         final String methodName = "foo";
         SecretClass secret = null;
         try {
-            clazz.getDeclaredMethod(methodName, new Class[]{String.class});
+            foo = clazz.getDeclaredMethod(methodName, new Class[]{String.class, Integer[].class});
         } catch (NoSuchMethodException ex) {
             Logger.getLogger(MyReflections.class.getName()).log(Level.SEVERE, "Отсутствует метод" + methodName, ex);
         } catch (SecurityException ex) {
