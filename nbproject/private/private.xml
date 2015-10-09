@@ -3,28 +3,34 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/array/MyArrayVector.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/xml/SimpleXML.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/checker/Checker.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/wordprocessor/WordProcessor.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/reflections/Reflections.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/checker/MyChecker.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/array3d/Array3d.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/sql/group_functions.sql</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/testjava/asd.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/businesscard/MyBusinessCard.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/wordprocessor/MyWordProcessor.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/wordcounter/WordCounter.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/array3d/MyArray3d.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/array/ArrayVector.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/testjava.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/reflections/MyReflections.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/employee/MyEmployee.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/employee/Employee.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/xml/MySimpleXML.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/businesscard/BusinessCard.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/ru/ncedu/java/tasks/wordcounter/MyWordCounter.java</file>
-            <file>file:/C:/Documents%20and%20Settings/DimaZ/testJava/src/sql/Single-row%20functions.sql</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xpath/emp-hier.xml</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/array/MyArrayVector.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xpath/XPathCaller.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xpath/emp.xsd</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xml/MySimpleXML.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/reflections/Reflections.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/testjava.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/array/ArrayVector.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xml/SimpleXML.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/employee/MyEmployee.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/sql/Single-row%20functions.sql</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xpath/MyXPathCaller.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/array3d/Array3d.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/employee/Employee.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/businesscard/BusinessCard.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/sql/group_functions.sql</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/array3d/MyArray3d.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/businesscard/MyBusinessCard.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/wordprocessor/MyWordProcessor.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/checker/Checker.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/testjava/asd.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/sql/hierarchical.sql</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/wordprocessor/WordProcessor.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/checker/MyChecker.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/wordcounter/WordCounter.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/xpath/emp.xml</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/wordcounter/MyWordCounter.java</file>
+            <file>file:/C:/Documents%20and%20Settings/DimaZ/TestJava/src/ru/ncedu/java/tasks/reflections/MyReflections.java</file>
         </group>
     </open-files>
 </project-private>
